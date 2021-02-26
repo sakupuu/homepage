@@ -102,6 +102,7 @@ margin: 10px o 42px;
   height: 270px;
   margin-bottom: 40px;
 }
+
 #news .page-title {
   text-align: center;
   font-size: 5rem;
@@ -109,8 +110,8 @@ margin: 10px o 42px;
   text-transform: uppercase;
   font-weight: normal;
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: 0;
+  left: 0;
 }
 
 
