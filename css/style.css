@@ -5,7 +5,7 @@ html {
 }
 body {
   font-family: "Yu Gothic Medium", "遊ゴシック Medium", "YuGothic", "遊ゴシック体", "ヒラギノ角ゴ Pro W3", sans-serif;line-height: 1.7 ;
-  color: navy;
+  color: rgb(90, 90, 179);
 }
 a {
   text-decoration: none;
@@ -28,7 +28,7 @@ img {
   margin-left: 36px;
 }
 .main-nav a {
-  color: #432;
+  color:white;
 }
 .main-nav a:hover {
   color: #0bd;
