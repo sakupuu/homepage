@@ -31,7 +31,7 @@ img {
   color:white;
 }
 .main-nav a:hover {
-  color: #0bd;
+  color: rgba(184, 25, 112, 0.445);
 }
 .page-header {
   display: flex;
