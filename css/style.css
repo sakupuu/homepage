@@ -66,6 +66,7 @@ margin: 10px o 42px;
 }
 #home {
   background-image: url(../images/jonas-vincent-xulIYVIbYIc-unsplash.jpg);
+  background-color: rgba(100, 98, 98, 0.37);
   min-height: 100vh;
 }
 #home .page-title {
