@@ -73,3 +73,35 @@ margin: 10px o 42px;
 #home .page-title {
   text-transform: none;
 }
+/*contact
+------------------------------*/
+#contact {
+  background-image: url(../images/paul-hanaoka-w2DsS-ZAP4U-unsplash.jpg);
+  height: 270px;
+  margin-bottom: 40px;
+}
+#contact .page-title {
+  text-align: center;
+}
+
+/*search
+------------------------------*/
+#search {
+  background-image: url(../images/paul-hanaoka-w2DsS-ZAP4U-unsplash.jpg);
+  height: 270px;
+  margin-bottom: 40px;
+}
+#search .page-title {
+  text-align: center;
+}
+
+/*news
+------------------------------*/
+#news {
+  background-image: url(../images/paul-hanaoka-w2DsS-ZAP4U-unsplash.jpg);
+  height: 270px;
+  margin-bottom: 40px;
+}
+#news .page-title {
+  text-align: center;
+}
