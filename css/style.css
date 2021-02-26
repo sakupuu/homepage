@@ -104,7 +104,12 @@ margin: 10px o 42px;
 }
 #news .page-title {
   text-align: center;
+  font-size: 5rem;
+  font-family: 'Philosopher', serif;
+  text-transform: uppercase;
+  font-weight: normal;
 }
+
 
 /*footer
 ------------------------------*/
