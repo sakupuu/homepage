@@ -42,3 +42,11 @@ img {
   margin: 0auto;
   padding: 0 4%;
 }
+.home-content {
+  text-align: center;
+  margin-top: 10%;
+}
+.home-content p {
+font-size: 1.125rem;
+margin: 10px o 42px;
+}
