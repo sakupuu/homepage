@@ -100,6 +100,7 @@ margin: 10px o 42px;
   background-image: url(../images/paul-hanaoka-w2DsS-ZAP4U-unsplash.jpg);
   height: 270px;
   margin-bottom: 40px;
+  
 }
 
 #news .page-title {
@@ -123,7 +124,11 @@ footer p{
 article {
   width: 100%;
 }
-
+article img{
+object-fit: cover;
+width: 500px;
+height: 100px;
+}
 .news-contents {
   display: flex;
   margin-bottom: 50px;
