@@ -205,6 +205,11 @@ input[type="submit"] {
 }
 
 /* 送信ボタン */
+input#submit_button {
+      width: 150px;
+      height: 50px;
+  }
+  
 .decorated-btn {
   background-color: gold;
   font-size: 12px;
