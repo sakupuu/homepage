@@ -126,7 +126,7 @@ article {
 }
 article img{
 object-fit: cover;
-width: auto;
+width: 1000px;
 height: auto;
 }
 .news-contents {
