@@ -212,7 +212,7 @@ input[type="submit"] {
   max-width: 200px;
   width: 100%;
   margin: 0 auto;
-  background: #447fff; /* 色変更可能 */
+  background: #447fff; 
   color: #fff;
   font-weight: bold;
   padding: 13px 10px 10px;
@@ -225,7 +225,7 @@ input[type="submit"] {
 .button-shadow:active, .button-shadow:focus {
   border-bottom-width: 0;
   margin-top: 5px;
-  background: #ff9300; /* 色変更可能 */
+  background: #ff9300; 
 }
 
 @keyframes flash {
