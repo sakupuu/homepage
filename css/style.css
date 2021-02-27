@@ -208,22 +208,10 @@ input[type="submit"] {
 input#submit_button {
       width: 300px;
       height: 100px;
+      padding: 15px 40px;
+      font-size: 1.2em;
+      background-color: aqua;
+      color: white;
+      
   }
   
-.decorated-btn {
-  background-color: gold;
-  font-size: 12px;
-  border-radius: 5px;
-  border-bottom: solid 3px goldenrod;
-  box-shadow: 3px 3px 3px gray;
-  transition: 0.3s;
-}
-
-.click-down:active {
-  transform: translateY(2px);
-  border-bottom: none;
-}
-
-.decorated-btn:hover {
-  background-color: orange;
-}
