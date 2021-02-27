@@ -77,8 +77,7 @@ margin: 10px o 42px;
 ------------------------------*/
 #contact {
   background-image: url(../images/catimage.jpeg);
-  height: 270px;
-  margin-bottom: 40px;
+  min-height: 100vh;
 }
 #contact .page-title {
   text-align: center;
