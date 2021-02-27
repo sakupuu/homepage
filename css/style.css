@@ -203,3 +203,22 @@ input[type="submit"] {
   cursor: pointer;
   line-height: 1;
 }
+
+/* 送信ボタン */
+.decorated-btn {
+  background-color: gold;
+  font-size: 12px;
+  border-radius: 5px;
+  border-bottom: solid 3px goldenrod;
+  box-shadow: 3px 3px 3px gray;
+  transition: 0.3s;
+}
+
+.click-down:active {
+  transform: translateY(2px);
+  border-bottom: none;
+}
+
+.decorated-btn:hover {
+  background-color: orange;
+}
