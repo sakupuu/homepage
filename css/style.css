@@ -93,6 +93,9 @@ margin: 10px o 42px;
 #search .page-title {
   text-align: center;
 }
+#search .select {
+  padding-left: 30pxm;
+}
 
 /*news
 ------------------------------*/
