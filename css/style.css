@@ -88,7 +88,6 @@ margin: 10px o 42px;
 #search {
   background-image: url(../images/paul-hanaoka-w2DsS-ZAP4U-unsplash.jpg);
   height: 400px;
-  margin-bottom: 10px;
 }
 #search .page-title {
   text-align: center;
@@ -111,8 +110,6 @@ p.contents2 {
 #news {
   background-image: url(../images/paul-hanaoka-w2DsS-ZAP4U-unsplash.jpg);
   height: 400px;
-  margin-bottom: 10px;
-  
 }
 
 #news .page-title {
