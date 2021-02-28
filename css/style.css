@@ -108,9 +108,9 @@ margin: 10px o 42px;
   text-align: center;
 }
 
-p {
-    line-height : 170%;
-    }
+p.content1 {line-height: 40px;}
+
+p.content2 {line-height: 40px;}
 
 
 /*footer
