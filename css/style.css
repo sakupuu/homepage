@@ -187,7 +187,7 @@ textarea {
   background: rgba(255, 255, 255, .5);
   border: 1px #fff solid;
   border-radius: 5px;
-  padding: 10px;
+  padding-top: 10px;
   font-size: 1rem;
 }
 input[type="text"],
