@@ -175,11 +175,13 @@ height: auto;
 /* フォーム */
 form div {
   margin-bottom: 14px;
+  padding-bottom: 10px;
 }
 label {
   font-size: 1.125rem;
   margin-bottom: 10px;
   display: block;
+  padding-bottom: 10px;
 }
 input[type="text"],
 input[type="email"],
