@@ -97,9 +97,14 @@ margin: 10px o 42px;
 p.contents1 {
   line-height: 40px;
   font-size: 1.2rem;
-  padding-left: 20px;
+  padding-left: 10px;
 }
 
+p.contents2 {
+  line-height: 40px;
+  font-size: 1.2rem;
+  padding-left: 10px;
+}
 
 /*news
 ------------------------------*/
