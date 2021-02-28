@@ -108,20 +108,9 @@ margin: 10px o 42px;
   text-align: center;
 }
 
-#news .ex1{
-  font-size:20px;
-  line-height:40px;
-  }
-
-#news .ex2{
-    font-size:20px;
-    line-height:40px;
+p {
+    line-height : 170%;
     }
-
-#news .ex3{
-      font-size:20px;
-      line-height:40px;
-      }
 
 
 /*footer
