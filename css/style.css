@@ -27,9 +27,11 @@ img {
 .main-nav li {
   margin-left: 36px;
 }
+
 .main-nav a {
   color:white;
 }
+
 .main-nav a:hover {
   color: rgba(78, 255, 246, 0.973);
 }
