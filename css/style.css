@@ -93,27 +93,27 @@ color: azure;
   height: 400px;
 }
 #search .page-title {
-  text-align: center;
+  text-align: left;
 }
 
 #search .post-title {
-  text-align: center;
+  text-align: left;
 }
 
 .wrapper {
-  text-align: center;
+  text-align: left;
 }
 
 p.contents1 {
   line-height: 40px;
   font-size: 1.2rem;
-  text-align: center;
+  text-align: left;
 }
 
 p.contents2 {
   line-height: 40px;
   font-size: 1.2rem;
-  text-align: center;
+  text-align: left;
 }
 
 /*news
