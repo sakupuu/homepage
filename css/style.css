@@ -49,9 +49,9 @@ img {
   margin-top: 10%;
 }
 .home-content p {
-font-size: 2rem;
+font-size: 1.5rem;
 margin: 10px 0 42px;
-font-weight: bold;
+color: azure;
 }
 
 /* 見出し */
