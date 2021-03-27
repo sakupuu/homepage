@@ -39,12 +39,31 @@
     <div class="wrapper">
       <p><small>&copy; 2021 Sakurabox</small></p>
     </div>
-    <div id = "privacy-panel">
-      <p>当サイトではユーザーエクスペリエンス向上のため、クッキーを使用しています。また、匿名でアクセス状況のデータを収集しています。詳しい情報は当サイトのプライバシーポリシーをご覧ください。</p>
-      <button id = "agreebtn">承諾する</button>
-    </div>
-
-    
+    <div id="privacy-panel">
+      <p>当サイトではユーザーエクスペリエンス向上のためクッキーを使用しています。また、匿名でアクセス状況のデータを収集しています。詳しい情報は当サイトのプライバシーポリシーをご覧ください。</p>
+      <button id="agreebtn">承認する</button>
+  </div>
+  
+  <script src="../../_common/scripts/js.cookie.js"></script>
+  <script>
+  'use strict';
+  
+  const agree = Cookies.get('cookie-agree');
+  const panel = document.getElementById('privacy-panel');
+  if(agree === 'yes') {
+      document.body.removeChild(panel);
+  } else {
+      document.getElementById('agreebtn').onclick = function() {
+          Cookies.set('cookie-agree', 'yes', {expires: 7});
+          document.body.removeChild(panel);
+      };
+  }
+  
+  // クッキー削除（テスト用）
+  document.getElementById('testbtn').onclick = function() {
+      Cookies.remove('cookie-agree');
+  };
+  </script>
     
   </footer>
   <script src="script.js"></script>
