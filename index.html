@@ -71,6 +71,9 @@
         </ul>
       </div>
     </div>
+    <p>あなたは今</p>
+    <p id = "loc" class = "potision"></p>
+    <p>の場所にいます。ちなみに精度は半径<span id = "accuracy" class = "potision"></span>mです。</p>
   </section>
   <footer>
     <div class="wrapper">
@@ -103,16 +106,31 @@
   </script>
     
   </footer>
-  <script src="script.js"></script>
+  <!-- <script src="script.js"></script> -->
   <script src="../../jquery-3.6.0.min.js"></script>
   <script>
     'use strict';
 
-    $(document).ready(function(){
-      $('.submenu h3').on('click', function(){
-        $(this).next().toggleClass('hidden');
-      });
-    });
+    // $(document).ready(function(){
+    //   $('.submenu h3').on('click', function(){
+    //     $(this).next().toggleClass('hidden');
+    //   });
+    // });
+
+  // 位置情報
+  function success(pos) {
+    // console.log(pos);
+    const lat = pos.coords.latitude;
+    const lng = pos.coords.longitude;
+    const accuracy = pos.coords.accuracy;
+
+    $('#loc').text('緯度:${lat} 緯度:${lang}');
+    $('#accuracy').text(accuracy);
+  }
+  function fail(error) {
+    alert('位置情報の取得に失敗しました。エラーコード：' + error.code);
+  }
+  navigator.geolocation.getCurrentPosition(success,fail);
   </script>
 </body>
 </html>
